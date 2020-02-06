@@ -14,6 +14,10 @@ app.use(cors());
 app.use(express.json());       // to support JSON-encoded bodies
 app.use(express.urlencoded()); // to support URL-encoded bodies
 
+app.get('/',function(req,res){
+	res.json({'status':200})
+})
+
 app.get('/key1',function(req,res){
 	res.json({"status":200});
 })
