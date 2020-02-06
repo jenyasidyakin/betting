@@ -4,7 +4,7 @@ var express = require("express");
 
 var app = express();
 
-var PORT = 5353;
+var PORT = 80;
 
 var cors = require('cors');
 
