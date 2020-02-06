@@ -27,17 +27,25 @@ app.get('/key2',function(req,res){
 	console.log("get key2");
 	res.json({"status":200});
 })
+app.get('/key3',function(req,res){
+	console.log("get key3");
+	res.json({"status":200});
+})
+app.get('/key4',function(req,res){
+	console.log("get key4");
+	res.json({"status":200});
+})
 
-app.post('/key1',function(req,res){
-	    console.log("post key1");
-		console.log(req.body);
-		res.json({'status':200})
-})
-app.post('/key2',function(req,res){
-		console.log("post key2");
-		console.log(req.body);
-		res.json({'status':200})
-})
+// app.post('/key1',function(req,res){
+// 	    console.log("post key1");
+// 		console.log(req.body);
+// 		res.json({'status':200})
+// })
+// app.post('/key2',function(req,res){
+// 		console.log("post key2");
+// 		console.log(req.body);
+// 		res.json({'status':200})
+// })
 
 app.post('/');
 
